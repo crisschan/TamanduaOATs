@@ -1,0 +1,22 @@
+// DataNode.cpp: implementation of the CDataNode class.
+//
+//////////////////////////////////////////////////////////////////////
+//#include "stdafx.h"
+#include "DataNode.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CDataNode::CDataNode(int num)
+:m_total(num), m_nIndex(0)
+{
+	m_vecValue.clear();
+	for(int i=0; i<num ; ++i)
+		m_vecValue.push_back(i+1);
+}
+
+CDataNode::~CDataNode()
+{
+
+}
