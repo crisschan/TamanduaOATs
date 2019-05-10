@@ -5,13 +5,17 @@
 
 ## python调用方法如下：
   
-  ```#encoding=utf-8 
+  ```
+  #encoding=utf-8 
   import TamanduaOATs
-  print TamanduaOATs.OATs(7,2,'2,3') ```
+  print TamanduaOATs.OATs(7,2,'2,3') 
+  ```
 
 TamanduaParam输出按照正交计算出测试用了，结果是一个嵌套的list（放到python下的lib目录下） 使用法方法举例如下： 
 
-  ```strOParamfile='C:\\Users\\C\Desktop\\ttt.csv' 
+  ```
+  strOParamfile='C:\\Users\\C\Desktop\\ttt.csv' 
   taman=TamanduaParam(strOParamfile) 
   print taman.GetAllParam() 
-  #print taman.CalTaseCaseParam()```
+  #print taman.CalTaseCaseParam()
+  ```
